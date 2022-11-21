@@ -233,6 +233,33 @@ body {
     align-items: center;
 }
 
+.contenedorEventos {
+    background-color: $header;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.tituloEventos {
+    font-family: $font-family_general;
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 0;
+}
+
+.subtituloEventos {
+    font-family: $font-family_general;
+    font-size: 0.8em;
+    padding-left: 1%;
+    margin: 0;
+}
+
+.imagenesEventos {
+    width: 60%;
+    margin: 1%;
+    border: solid #000;
+}
+
 .contenedorAlojamiento {
     background-color: $header;
     margin: 2%;
@@ -374,6 +401,18 @@ body {
         font-size: 1.5em;
     }
 
+    .tituloEventos {
+        font-size: 2.5em;
+    }
+
+    .subtituloEventos {
+        font-size: 1.6em;
+    }
+
+    .imagenesEventos {
+        width: 40%;
+    }
+
     .tituloAlojamiento {
         font-size: 2em;
     }
@@ -475,6 +514,18 @@ body {
 
     .subtituloComida {
         font-size: 1rem;
+    }
+
+    .tituloEventos {
+        font-size: 2em;
+    }
+
+    .subtituloEventos {
+        font-size: 1.3em;
+    }
+
+    .imagenesEventos {
+        width: 25%;
     }
 
     .iconoMenu {
