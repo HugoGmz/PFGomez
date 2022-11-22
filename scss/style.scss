@@ -106,12 +106,15 @@ body {
     width: 45vh;
     text-decoration: none;
     margin: 2%;
-
-    &:hover {
-        height: 45vh;
-        width: 65vh;
-        border: solid $borde;
-    }
+}
+.imagenLugaresLugar {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 25vh;
+    width: 45vh;
+    text-decoration: none;
+    margin: 2%;
 }
 
 .galeriaElefante {
@@ -151,6 +154,16 @@ body {
 }
 
 .textGaleria {
+    font-family: $font-family_general;
+    background-color: $header;
+    color: $black;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3em;
+    margin-top: 40%;
+}
+
+.textGaleriaLugar {
     font-family: $font-family_general;
     background-color: $header;
     color: $black;
@@ -386,6 +399,25 @@ body {
     font-size: 1.5rem;
 }
 
+.tituloLugar {
+    font-family: $font-family_general;
+    color: $black;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+.subtituloLugar {
+    font-family: $font-family_general;
+    color: $black;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.imagenLugar {
+    width: 45%;
+}
+
 @media screen and (min-width: 768px) {
     .tituloPagina {
         font-size: 2.5em;
@@ -460,11 +492,30 @@ body {
     .imagenLugares {
         height: 35vh;
         width: 55vh;
+        &:hover {
+            height: 45vh;
+            width: 65vh;
+            border: solid $borde;
+        }
+    }
+    .imagenLugaresLugar {
+        height: 25vh;
+        width: 40vh;
+        &:hover {
+            height: 30vh;
+            width: 45vh;
+            border: solid $borde;
+        }
     }
 
     .textGaleria {
         font-size: 2em;
         margin-top: 50%;
+    }
+
+    .textGaleriaLugar {
+        font-size: 1.2em;
+        margin-top: 40%;
     }
 
     .buttonExtra {
@@ -473,6 +524,12 @@ body {
 
     #footer {
         font-size: 1.5em;
+    }
+    .tituloLugar {
+        font-size: 2.5em;
+    }
+    .subtituloLugar {
+        font-size: 1.9em;
     }
 }
 
@@ -590,6 +647,11 @@ body {
     .textGaleria {
         font-size: 1.5em;
         margin-top: 55%;
+    }
+
+    .textGaleria {
+        font-size: 1.2em;
+        margin-top: 40%;
     }
 
     .imgExtra {
