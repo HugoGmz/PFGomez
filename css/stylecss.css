@@ -144,10 +144,6 @@ body {
     text-decoration: none;
     font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial, sans-serif";
     color: #000; }
-  .buttonExtra:hover {
-    background-color: #eaf0cc;
-    border: solid #666743;
-    height: 6vh; }
 
 #footer {
   width: 100%;
@@ -403,6 +399,10 @@ body {
     height: 6vh;
     width: 75%;
     margin: 2%; }
+    .buttonExtra:hover {
+      background-color: #eaf0cc;
+      border: solid #666743;
+      height: 6vh; }
   #footer {
     font-size: 1.8em; }
   .liIcono {
